@@ -1,1 +1,76 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystals Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script  src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="container ml-0">
+        <div class="row ml-3 mr-3 bord">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2  " >
+                <img class="imgalign" src="assets/images/naturescrystal.jpeg" alt="Natures Crystal" >
+            </div> 
+            <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 ">
+                <h2>Crystals Collector!!!</h2>
+            </div>
+        </div>
+        <div class="row ml-3 mr-3 mt-4 ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 secondrow">
+                <p>You will be given a random number at the start of the game.</p> 
+                <p>
+                    There are four crystals below. By clicking on a crystal you will add a 
+                    specific amount of points to your total score.
+                </p>
+                <p>
+                    You win the game by matching your total score to random number, you lose the 
+                    game if your total score goes above the random number.
+                </p>
+                <p>
+                    The value of each crystal is hidden from you until you click on it.  
+                </p>
+                <p>
+                    Each time when the game starts, the game will change the values of each crystal.
+                </p>
+            </div>
+        </div>
+        <div class="row ml-3 mr-3 mt-1">
+            <div class="col-md-2 row3col1 " id="randomNumber"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3 row3col2" id="wGameStats"></div>
+            <div class="col-md-6"></div>
 
+        </div>
+        <div class="row ml-3 mr-3 mt-3">
+            <div class="col-12 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                <img class="imgwidth" id="imgnum1" src="assets/images/img1.jpg" alt="Crystal1" >
+            </div>
+            
+            <div class="col-12 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                <img class="imgwidth" id="imgnum2" src="assets/images/img2.jpg" alt="Crystal1" >
+            </div>
+            
+            <div class="col-12 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                <img class="imgwidth" id="imgnum3" src="assets/images/img3.jpg" alt="Crystal1" >
+            </div>
+            
+            <div class="col-12 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                <img class="imgwidth" id="imgnum4" src="assets/images/img4.jpg" alt="Crystal1" >
+            </div>
+
+        </div>
+        <div class="row ml-3 mb-2 mr-3">
+            <div class="col-md-7 row5" id="total"></div>
+
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
