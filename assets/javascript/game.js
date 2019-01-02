@@ -71,8 +71,6 @@ $(document).ready(function() {
         $("#imgnum3").attr("data-crystalvalue",crysNum[2]);
         $("#imgnum4").attr("data-crystalvalue",crysNum[3]);
 
-        // var imageCrystal = $("<img>");
-        //imageCrystal.attr("data-crystalvalue", numberOptions[i]);
         $("img").on("click", function() {
             var crystalValue = ($(this).attr("data-crystalvalue"));
             crystalValue = parseInt(crystalValue);
@@ -83,8 +81,6 @@ $(document).ready(function() {
                 win=win+1;
                 var wstats="You Win!!!"+"<br>"+"Wins: "+win+"<br>"+"Losses: "+los;
                 $("#wGameStats").html(wstats);
-                // var lstats="Losses: "+los;
-                // $("#lGameStats").text(lstats);
                 clear();
                 reset();
                 
@@ -93,8 +89,6 @@ $(document).ready(function() {
                 los=los+1;
                 var wstats="You Lose!!!"+"<br>"+"Wins: "+win+"<br>"+"Losses: "+los;
                 $("#wGameStats").html(wstats);
-                // var lstats="Losses: "+los;
-                // $("#lGameStats").text(lstats);
                 clear();    
                 reset();
             }
