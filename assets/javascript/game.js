@@ -42,8 +42,6 @@ $(document).ready(function() {
     reset();
     var wstats="Wins: "+win+"<br>"+"Losses: "+los;
     $("#wGameStats").html(wstats);
-    var lstats="Losses: "+los;
-    $("#lGameStats").text(lstats);
 
     function begin(){
         //Generate random number 19-120

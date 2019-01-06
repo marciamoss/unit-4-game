@@ -31,6 +31,9 @@ h2{
 
 .imgwidth{
     width:100%;
+    border-style: solid;
+    border-color:black;
+    border-width: 5px;
 }
 
 .imgalign{
